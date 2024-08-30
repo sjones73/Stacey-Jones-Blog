@@ -1,0 +1,135 @@
+
+body{
+    height: 100vh;
+
+}
+
+header{
+    height: 10%;
+    border-bottom: 5px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myBlog{
+    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: column row-reverse;
+    justify-content: space-evenly;
+
+
+}
+
+.blogContent{
+    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: column row-reverse;
+    justify-content: space-evenly;
+
+}
+/* :root {
+    --bg: blue;
+
+        --card: ;
+    --hover: lime;
+    --grey: grey;
+    --white: white;
+
+}
+
+html body {
+    background: linear-gradient(0.25turn, var(--grey), var(--bg), var(--hover));
+    color: var(--white);
+    font-family: Shadows into light;
+    font-size: 30px;
+    min-width: 100vw;
+}
+
+.box {
+    --bulma-box-background-color: var(--card);
+}
+
+.font {
+    font-size: 15px;
+    ;
+}
+
+.card {
+    max-width: 50px;
+    --bulma-card-background-color: var(--card);
+}
+
+.card-content {
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-brand {
+    display: flex;
+    background: linear-gradient(0.25turn, var(--bg), var(--hover), var(--grey));
+    border-bottom: 5px double var(--card);
+    border-top: 5px double var(--grey);
+}
+
+.navbar-brand a {
+    color: yellow;
+}
+
+
+.subtitle-address {
+    color: white;
+}
+
+
+footer.footer {
+    background: linear-gradient(0.25turn, var(--bg), var(--hover), var(--grey));
+    border-bottom: 5px double var(--card);
+    border-top: 5px double var(--grey);
+}
+
+textarea.textarea {
+    background: linear-gradient(var(--hover), var(--grey));
+    color: var(--white);
+}
+
+input.input {
+    background: linear-gradient(var(--hover), var(--grey));
+    color: var(--white);
+}
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.cardDiv {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 320px)and (max-width:768px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+    }
+
+    #navRow a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-brand {
+        flex-direction: column;
+    }
+    .cardDiv {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        max-width: 100%;
+    }
+} */

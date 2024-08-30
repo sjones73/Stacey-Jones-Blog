@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./assets/js/form.js"> </script>
+    <script defer src="./assets/js/blog.js"> </script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: pink;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 800px;
+            border: 1px solid pink;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .left-box {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            background-color: orange;
+        }
+        .right-box {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 5px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <img src="./assets/css/image/FirstBlogPic.jpeg" alt="My First Blog Logo" width="100">
+        </div>
+        <div class="right-box">
+            <form>
+                <h1> What's on your mind?</h1>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
