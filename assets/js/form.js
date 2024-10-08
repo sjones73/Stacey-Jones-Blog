@@ -23,12 +23,20 @@ form.addEventListener('submit', function(event) {
         title: title,
         content: content
     };
-   const saveToLocalStorage = function(data) {
+
+    ///////////////////////////////////////
+//    const saveToLocalStorage = function(data) {
+//     const savesBlogs = readFromLocalStorage();
+//     savesBlogs.push(data);
+//     const stringData = JSON.stringify(savesBlogs);
+//     localStorage.setItem('blogData', stringData);
+//    }
+   /////////////////////////////////
+
     const savesBlogs = readFromLocalStorage();
-    savesBlogs.push(data);
+    savesBlogs.push(blogData);
     const stringData = JSON.stringify(savesBlogs);
     localStorage.setItem('blogData', stringData);
-   }
 
     // Redirect to blog.html after saving data
     window.location.href = 'blog.html';

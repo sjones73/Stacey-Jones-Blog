@@ -5,3 +5,13 @@
     font-size: 30px;
     min-width: 100vw;
 } */
+
+.blog-card {
+    outline: 3px solid orange;
+    margin: 5px;
+    padding: 10px;
+}
+
+.blog-card h2 {
+    outline: 1px solid pink;
+}
